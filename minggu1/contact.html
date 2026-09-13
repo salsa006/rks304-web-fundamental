@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Salsabela Maharani</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sidebar / Navigasi Kiri -->
+    <aside>
+        <div>
+            <div class="logo">Salsabela Maharani</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portofolio.html">Portofolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Salsabela Maharani</p>
+        </div>
+    </aside>
+
+    <!-- Konten Utama Semantik -->
+    <main>
+        <section>
+            <h2>Formulir Kontak & Kolaborasi</h2>
+            <p>Silakan isi formulir di bawah ini untuk mengirimkan pesan atau keperluan kolaborasi:</p>
+            
+            <form action="#" method="POST">
+                
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap...">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Alamat Email</label>
+                    <input type="email" id="email" name="email" required placeholder="nama@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="kategori">Kategori / Keperluan</label>
+                    <select id="kategori" name="kategori">
+                        <option value="konsultasi">Konsultasi</option>
+                        <option value="kolaborasi">Kolaborasi Proyek</option>
+                        <option value="umum">Pertanyaan Umum</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" rows="5" required placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                </div>
+
+                <button type="submit">Kirim Pesan</button>
+
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
